@@ -1,0 +1,100 @@
+@import "./tokens.css";
+
+/* the screen is dark-only, like the ChaiUI default */
+:root {
+  color-scheme: dark;
+}
+
+/* motion: hovers are subtle colour transitions; respect the OS setting */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+::selection {
+  background: rgb(254 215 170 / 0.25);
+}
+
+/* quiet scrollbars, so long file lists and tables do not shout */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(64 64 64) transparent;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(64 64 64 / 0.9);
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(82 82 82);
+  background-clip: content-box;
+}
+
+/* a visible keyboard focus that matches the rest of the surface */
+:where(a, button, [role="button"], summary, label, [tabindex]:not([tabindex="-1"])):focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* the settings sliders: thin track, light thumb, no orange */
+input[type="range"].range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 14px;
+  background: transparent;
+  cursor: pointer;
+}
+input[type="range"].range::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 999px;
+  background: rgb(64 64 64);
+}
+input[type="range"].range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -5px;
+  height: 14px;
+  width: 14px;
+  border-radius: 999px;
+  background: rgb(229 229 229);
+  transition: transform 150ms ease-out;
+}
+input[type="range"].range:hover::-webkit-slider-thumb {
+  transform: scale(1.1);
+}
+input[type="range"].range::-moz-range-track {
+  height: 4px;
+  border-radius: 999px;
+  background: rgb(64 64 64);
+}
+input[type="range"].range::-moz-range-thumb {
+  height: 14px;
+  width: 14px;
+  border: 0;
+  border-radius: 999px;
+  background: rgb(229 229 229);
+}
+input[type="range"].range:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 4px;
+  border-radius: 999px;
+}
+
+/* the search field's native clear button sits on a dark surface */
+input[type="search"]::-webkit-search-cancel-button {
+  filter: invert(0.6);
+  cursor: pointer;
+}

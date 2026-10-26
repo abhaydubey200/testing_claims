@@ -1,0 +1,5 @@
+server.py: PYTHONHOME before clear: None
+server.py: PYTHONHOME after clear: None
+server.py: sys.prefix before: C:\Users\Abhay\Desktop\Odometer_Image_Audit_Automation_Testing\OdoAudit_v1.0\OdoAudit\.venv
+server.py: sys.executable before: C:\Users\Abhay\Desktop\Odometer_Image_Audit_Automation_Testing\OdoAudit_v1.0\OdoAudit\.venv\Scripts\python.exe
+server.py: sys.path before: ['C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit', 'C:\\Users\\Abhay\\AppData\\Local\\Temp', 'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit', 'C:\\Users\\Abhay\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip', 'C:\\Users\\Abhay\\AppData\\Local\\Programs\\Python\\Python312\\DLLs', 'C:\\Users\\Abhay\\AppData\\Local\\Programs\\Python\\Python312\\Lib', 'C:\\Users\\Abhay\\AppData\\Local\\Programs\\Python\\Python312', 'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv', 'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv\\Lib\\site-packages']

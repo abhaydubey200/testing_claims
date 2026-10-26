@@ -1,0 +1,31 @@
+Python path configuration:
+  PYTHONHOME = 'C:\Users\Abhay\Desktop\Odometer_Image_Audit_Automation_Testing\OdoAudit_v1.0\OdoAudit\.venv'
+  PYTHONPATH = 'C:\Users\Abhay\Desktop\Odometer_Image_Audit_Automation_Testing\OdoAudit_v1.0\OdoAudit'
+  program name = 'C:\Users\Abhay\AppData\Local\Programs\Python\Python312\python.exe'
+  isolated = 0
+  environment = 1
+  user site = 1
+  safe_path = 0
+  import site = 1
+  is in build tree = 0
+  stdlib dir = 'C:\Users\Abhay\Desktop\Odometer_Image_Audit_Automation_Testing\OdoAudit_v1.0\OdoAudit\.venv\Lib'
+  sys._base_executable = 'C:\\Users\\Abhay\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+  sys.base_prefix = 'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv'
+  sys.base_exec_prefix = 'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv'
+  sys.platlibdir = 'DLLs'
+  sys.executable = 'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv\\Scripts\\python.exe'
+  sys.prefix = 'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv'
+  sys.exec_prefix = 'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv'
+  sys.path = [
+    'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit',
+    'C:\\Users\\Abhay\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+    'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv\\DLLs',
+    'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv\\Lib',
+    'C:\\Users\\Abhay\\Desktop\\Odometer_Image_Audit_Automation_Testing\\OdoAudit_v1.0\\OdoAudit\\.venv\\Scripts',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000988 (most recent call first):
+  <no Python frame>

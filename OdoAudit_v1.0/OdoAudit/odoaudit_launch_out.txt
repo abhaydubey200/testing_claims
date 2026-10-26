@@ -1,0 +1,4 @@
+ launching server from: C:\Users\Abhay\AppData\Local\Python\pythoncore-3.15-64\python.exe
+ PYTHONPATH: C:\Users\Abhay\Desktop\Odometer_Image_Audit_Automation_Testing\OdoAudit_v1.0\OdoAudit
+ PYTHONHOME: None
+ cwd: C:\Users\Abhay\Desktop\Odometer_Image_Audit_Automation_Testing\OdoAudit_v1.0\OdoAudit
